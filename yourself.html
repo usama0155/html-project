@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tell us about yourself</title>
+</head>
+<body background="images/back2.jpg">
+    <main>
+        <form action="thanks.html" method="get">
+        <fieldset>
+            <legend>About Yourself</legend>
+        
+        <label for="firstname">First Name:</label> <input type="text" name="firstname" id="firstname" required placeholder="First Name">
+        <br>
+        <label for="lastname">Last Name:</label> <input type="text" name="lastname" id="lastname" required placeholder="Last Name">
+        <br>
+        <label for="contact">Contact Number:</label> <input type="tel" name="contact" id="contact" required placeholder="Contact Number">
+        <br>
+        <label for="email">Email Address:</label> <input type="email" name="email" id="email" required placeholder="Email/Username">
+        <br>
+        <label for="dob">Date Of Birth:</label> <input type="date" name="dob" id="dob" placeholder="Date Of Birth">
+        <br>
+        <h2>Which Language you prefer to learn first</h2>
+        <p>You can only select One Option</p>
+        <br>
+        <label for="lang"><b>Html</b></label> <input type="radio" name="lang" id="lang">
+        <label for="lang"><b>Css</b></label> <input type="radio" name="lang" id="lang">
+        <label for="lang"><b>JavaScript</b></label> <input type="radio" name="lang" id="lang">
+        <br>
+        <h2>Which Languages you already <b>Learned</b></h2>
+        <label for="known"><b>Html</b></label>
+        <input type="checkbox" name="known" id="known">
+        <label for="known"><b>Css</b></label>
+        <input type="checkbox" name="known" id="known">
+        <label for="known"><b>JavaScript</b></label>
+        <input type="checkbox" name="known" id="known">
+        <br>
+        <label for="time">Prefered TIme to learn coding:</label>
+        <select name="time" id="time">
+        <optgroup label="Early Risers">
+                <option value="morning">Morning</option>
+                <option value="afternnoon">Afternoon</option>
+                <option value="evening">Evenning</option>
+        </optgroup>
+            <optgroup label="Night Owls">
+                <option value="night">Night</option>
+                <option value="mid night">Mid Night</option>
+                <option value="latenight">Late Night</option>
+        </optgroup>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </fieldset>
+    </form>
+    <hr>
+    <a href="index.html"><button>Home</button></a>
+    </main>
+</body>
+</html>
