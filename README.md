@@ -18,5 +18,5 @@ This project is a personal website where I share information about myself and my
 
 
 ## 🚀 About Me
-I'm a Newbie. Trying to learn Web Development. RIght nnow im learning Html , CSS and Javascript.
+I'm a Newbie. Trying to learn Web Development. Right now i'm learning Html , CSS and Javascript.
 
